@@ -1,0 +1,105 @@
+* {
+  background-color: #fff5d5;
+}
+
+.App {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  border-radius: 25px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  background-color: #ffe79a;
+}
+
+.Input {
+  background-color: #ffe79a;
+}
+
+input {
+  background-color: #ffe79a;
+  margin: 5px;
+  width: 400px;
+  height: 60px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+}
+
+hr {
+  background-color: #ffe79a;
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #a53508 inset;
+}
+
+ul {
+  background-color: #ffe79a;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 5px;
+}
+
+li {
+list-style-type: none;
+border-radius: 5px;
+width: 300px;
+height: 40px;
+background-color: #9ab2ff;
+margin: 10px;
+padding-top: 20px;
+color: white;
+font-family: monospace;
+font-size: 23px;
+}
+
+#item {
+  background-color: #ffe79a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  height: 70px;
+  width: 80px;
+  margin: 5px;
+  border: none;
+  background-color: #f79d53;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.boughtItem {
+  background-color: #729a00;
+  width: 80px;
+  font-size: 30px;
+}
+
+.deleteItem {
+  width: 60px;
+  background-color: #ef5a5a;
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  background-color: #ffe79a;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0%;
+  padding-top: 15px ;
+  padding-bottom: 10px;
+}
